@@ -1,0 +1,15 @@
+.filter-form-container{
+    transition: max-height 1s, max-width 1s, padding 1s;
+    border-radius: 20px;
+    z-index: 999;
+    overflow: hidden;
+}
+.filter-form-hidden.filter-form-container{
+    max-height: 0vh;
+    max-width: 0vw;
+    padding: 0!important;
+}
+.filter-form-show.filter-form-container{
+    max-height: 50vh;
+    max-width: 80vw
+}
